@@ -1,0 +1,240 @@
+:root {
+  --rojo: #e50914;
+  --fondo: rgb(255, 255, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--fondo);
+  font-family: "Open Sans", sans-serif;
+}
+
+.contenedor {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  padding: 30px 0;
+  background-color: #262626;
+}
+
+li {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+/*titulo nav*/
+.logotipo {
+  font-family: "Bebas Neue", cursive;
+  font-weight: normal;
+  color: var(--rojo);
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.pag-principal {
+  padding: 10px 25px 20px 25px;
+  height: auto;
+}
+
+.pag-principal p {
+  font-size: 18px;
+}
+
+.contenido {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.parrafo p,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* menu */
+
+.menu {
+  margin-left: 20px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* items del menu */
+
+.menu ul li {
+  background-color: #4e4e4e;
+}
+
+/* enlaces del menu */
+
+.menu ul a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 10px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase; /*buscar que hace */
+  letter-spacing: 1px; /*buscar que hace */
+}
+
+/* items del menu */
+
+.menu ul li {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+/* efecto al pasar el ratón por los items del menu */
+
+.menu ul li:hover {
+  background: #5b78a7;
+}
+
+/* menu desplegable */
+
+.menu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #eee;
+  padding: 0;
+}
+
+/* items del menu desplegable */
+
+.menu ul ul li {
+  float: none;
+  width: 150px;
+}
+
+/* enlaces de los items del menu desplegable */
+
+.menu ul ul a {
+  line-height: 120%; /*buscar que hace */
+  padding: 10px 15px;
+}
+
+/* items del menu desplegable al pasar el ratón */
+
+.menu ul li:hover > ul {
+  display: block;
+}
+/* pie de pagina */
+.pie {
+  background-color: #262626;
+  padding-bottom: 10px;
+}
+/* caja iconos footer */
+.icons {
+  margin-right: 40%;
+  display: inline;
+}
+.pie li {
+  display: inline;
+}
+
+.pie ul {
+  list-style: none;
+}
+
+.pie img {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.icono img {
+  width: 130px;
+  height: 80px;
+  margin: 20px 0px 0px 20px;
+}
+/*texto en footer*/
+.texto {
+  display: inline;
+  color: white;
+  text-align: center;
+}
+/*descripciones y titulos de peliculas*/
+.fondo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../img/fondo.jpg);
+  width: 100%;
+  background-size: auto;
+  color: white;
+  float: left;
+}
+
+.titulo img {
+  width: 300px;
+  height: 300px;
+  margin-right: 10px;
+  float: left;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.contenido,
+.descripcion {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.datos {
+  width: 50%;
+  height: auto;
+  float: left;
+  margin-right: 15px;
+  padding: 0px 15px 65px 15px;
+  border-radius: 20px;
+}
+
+.contenedor2 {
+  margin: 0px 20px 20px 20px;
+}
+
+.datos2 {
+  float: left;
+  padding: 15px;
+  border-radius: 20px;
+  background: rgba(27, 25, 25, 0.75);
+  height: auto;
+  width: auto;
+}
+
+.datos2 h5,
+p {
+  font-size: 20px;
+}
+
+.lista {
+  padding-left: 80px;
+}
+
+a {
+  color: white;
+}
+
+.info {
+  margin-bottom: 20px;
+}
